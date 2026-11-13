@@ -1,0 +1,5 @@
+Welcome to SQL.org! Our goal is to build a resource that will help those using or wanting to make use of an SQL database find the resources and reference materials they are looking for: an sql tutorial, manual, introduction, SQL hosting provider, or someone to help them out. We hope to provide a broad range of material so that we can be as useful to those who are just beginning to learn SQL as we are to experienced SQL fanatics. Our materials are currently limited to MySQL, PostgreSQL, Oracle, mSQL and Microsoft SQL, as well as materials that are applicable to any SQL server or relational database.
+
+We can't possibly do it all alone. If you have any links you wish to share with us, or if you wish to write new content for our site, please contact us.
+
+Expect new content to be coming online over the coming weeks.
