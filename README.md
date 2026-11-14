@@ -10,15 +10,33 @@ The **Text Analyzer System** is designed to automate text-processing operations 
 
 This project consists of two main modules:
 
-**Module 1 – Word Search Engine**
+### Module 1 – Word Search Engine
 - Searches for specific keywords across multiple text files.
-- Supports efficient searching using an Inverted Index.
+- Uses an Inverted Index for efficient searching.
 - Displays matching documents and relevant information.
+- Supports Any Word Match and All Words Match.
 
-**Module 2 – Longest Word Finder**
+### Module 2 – Longest Word Finder
 - Identifies the longest word in a document.
 - Finds multiple words with the same maximum length.
 - Displays the top 5 longest unique words.
+
+---
+
+## 🚀 Run on Google Colab
+
+Run the project directly in Google Colab without installing Python or Jupyter Notebook locally.
+
+[![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-Sy5wKgGuSm_ZV2rSWIN-1dhEwm7sC0K?usp=sharing)
+
+**How to Run:**
+1. Click the Google Colab badge.
+2. Open the notebook in Google Colab.
+3. Upload or access the required project files.
+4. Execute the notebook cells sequentially.
+5. Explore both text-processing modules.
+
+**Note:** Replace `YOUR_GOOGLE_COLAB_NOTEBOOK_LINK` with your actual Google Colab notebook URL.
 
 ---
 
@@ -36,6 +54,7 @@ The objective of this project is to develop an automated application that simpli
 |---|---|
 | Programming Language | Python |
 | Development Environment | Jupyter Notebook |
+| Cloud Platform | Google Colab |
 | Programming Concepts | Object-Oriented Programming |
 | Text Processing | Regular Expressions (`re`) |
 | File Handling | `os` |
@@ -51,7 +70,7 @@ The objective of this project is to develop an automated application that simpli
 ### 1. Word Search Engine
 
 - Searches keywords across multiple text files.
-- Supports **Any Word Match** and **All Words Match**.
+- Supports Any Word Match and All Words Match.
 - Builds an Inverted Index for efficient searching.
 - Displays matching documents and line numbers.
 - Calculates relevance scores based on word frequency.
@@ -75,7 +94,7 @@ The objective of this project is to develop an automated application that simpli
 ### Module 1: Word Search Engine
 
 1. Accepts individual text files or a folder containing multiple documents.
-2. Reads and processes the document contents.
+2. Reads and processes document contents.
 3. Extracts words using Regular Expressions.
 4. Removes predefined stop words.
 5. Builds an Inverted Index that maps words to document locations.
@@ -121,19 +140,19 @@ Text-Analyzer-System/
 
 | File / Folder | Description |
 |---|---|
-| `Word Search Engine/` | Contains individual implementations of the two text-processing modules. |
+| `Word Search Engine/` | Contains individual implementations of the two modules. |
 | `word_search_engine.py` | Python implementation of the Word Search Engine. |
-| `Longest Word Search.ipynb` | Jupyter Notebook implementation of the Longest Word Finder. |
+| `Longest Word Search.ipynb` | Notebook implementation of the Longest Word Finder. |
 | `Text Analyzer System.ipynb` | Main notebook combining both modules. |
 | `Document/` | Main folder for document storage. |
 | `Docs/` | Contains sample text documents. |
-| `Python.txt` | Sample Python-related text data. |
-| `Java.txt` | Sample Java-related text data. |
-| `SQL.txt` | Sample SQL-related text data. |
+| `Python.txt` | Python-related sample text data. |
+| `Java.txt` | Java-related sample text data. |
+| `SQL.txt` | SQL-related sample text data. |
 
 ---
 
-## ▶️ How to Run the Project
+## ▶️ How to Run the Project Locally
 
 ### Prerequisites
 
@@ -160,7 +179,7 @@ jupyter notebook
 
 ### Step 4: Run the Application
 
-Open the following notebook:
+Open:
 
 ```text
 Text Analyzer System.ipynb
@@ -227,4 +246,4 @@ If you find this project interesting or useful, consider giving this repository 
 
 ### 🏷️ Tags
 
-`Python` `OOP` `File Handling` `Word Search Engine` `Inverted Index` `Text Processing` `Regular Expressions` `Jupyter Notebook` `Python Projects`
+`Python` `OOP` `File Handling` `Word Search Engine` `Inverted Index` `Text Processing` `Regular Expressions` `Jupyter Notebook` `Google Colab` `Python Projects`
